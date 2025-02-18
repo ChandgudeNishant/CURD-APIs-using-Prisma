@@ -22,15 +22,15 @@ This repository contains a set of CRUD (Create, Read, Update, Delete) APIs built
 
 ```
 📦 CURD-APIs-using-Prisma
-├── 📂 src
-│   ├── 📄 server.ts         # Entry point
-│   ├── 📄 routes.ts         # API Routes
-│   ├── 📄 controllers.ts    # Controller functions
-│   ├── 📄 services.ts       # Business logic
-│   ├── 📄 prisma.ts         # Prisma Client setup
-├── 📄 .env                  # Environment variables
-├── 📄 package.json          # Dependencies & scripts
-├── 📄 README.md             # Documentation
+├── .vscode/ # VS Code settings
+├── Controller/ # API controllers
+├── Database/ # Database connection setup
+├── Router/ # API routes
+├── prisma/ # Prisma schema and migrations
+├── .gitignore # Ignored files and folders
+├── package.json # Project dependencies
+├── package-lock.json # Dependency lock file
+├── server.js # Main server file
 ```
 
 ## 🚀 Installation & Setup
